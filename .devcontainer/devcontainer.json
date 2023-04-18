@@ -1,0 +1,13 @@
+{
+  "image": "python:3.8-buster",
+  "updateContentCommand": "git clone https://github.com/velvetsa/priv_esc.git /tmp/priv_esc && cat /tmp/priv_esc/README.md",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "velvetsa/priv_esc": {
+          "permissions": "read-all"
+        }
+      }
+    }
+  }
+}
